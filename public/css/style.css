@@ -7,6 +7,7 @@ body{
     text-align: center;
     background-color: hsl(204, 97%, 85%);
     width: 100vw;
+    overflow: hidden;
 }
 nav{
     
@@ -26,11 +27,12 @@ nav{
     margin: 5px;
     padding: 3px;
     font-size: smaller;
-    /* max-width: 80%; */
+    width: min(700px,100vw);
     border-radius: 5px;
 }
 .text .me{
     background-color: hsla(307, 80%, 70%, 0.721);
+    margin-left: auto;
     text-align: right;
 }
 .text .she{
